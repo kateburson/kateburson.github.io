@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: solid #cccccc 2px;
+    padding: 0;
+}
+
+.navbar-logo{
+    background-color: #4aaaa5;
+    height: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    height: auto;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color: #4aaaa5;
+}   
+
+a:active{
+    color: #4aaaa5;
+}
+
+a:visited{
+    color: #777777;
+}
+
+.row{
+    background-color: white;
+    padding: 25px;
+}
+
+.two{
+    padding-top: 0;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 24pt;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+p{
+    font-family: arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777777;
+}
+
+form{
+    background-color: white;
+}
+
+.button{
+    background-color: #4aaaa5;
+    padding: 10px 25px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    color: white;
+}
+
+.button:hover{
+    background-color: #777777;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #666666;
+    border-top: solid 8px #4aaaa5;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
